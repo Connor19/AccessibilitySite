@@ -1,7 +1,7 @@
 /* Global/Mobile Styles - This is for the scability for devices */
 /* This is the default unless the style is overwritten for larger screens */
 
-@font-face {
+@font-face { /*Custom Font*/
   font-family: customfont;
   src: url("../font/LEMONMILK-Regular.otf");
 }
@@ -11,6 +11,35 @@ body{
   margin: 0px;
 }
 
-#logo{
+#logonav{ /*Logo and Navbar styling*/
+  background-color: #c9bbbb;
+}
+
+#logo{ /*Logo Div styling*/
   font-family: customfont;
+  background-color: ;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+nav{ /*Navbar styling*/
+  background-color: #a19c9c;
+  font-family: "Calibri Light", serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+a{ /*Navbar link styling*/
+  text-decoration: none;
+  color: black;
+}
+
+h1{ /*Title styling*/
+  text-align: left;
+  padding-left: 10px;
 }
