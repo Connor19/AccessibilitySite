@@ -40,7 +40,7 @@ nav{ /*Navbar styling*/
   padding: 0.8em;
 }
 
-a{ /*Navbar link styling*/
+nav a{ /*Navbar link styling*/
   text-decoration: none;
   color: black;
   padding-left: 4px;
@@ -66,6 +66,11 @@ h1{ /*Title styling*/
   padding-left: 10px;
 }
 
+h2{
+  text-align: center;
+  padding-left: 0px;
+}
+
 #mobilenav{
   visibility: visible;
   font-family: "Calibri Light", serif;
@@ -74,6 +79,11 @@ h1{ /*Title styling*/
   display: flex;
   justify-content: left;
   justify-content: space-around;
+}
+
+#mobilenav th a{
+  text-decoration: none;
+  color: black;
 }
 
 table{
@@ -100,6 +110,7 @@ main {
   border-radius: 10px;
   padding: 1em;
   margin-left: 10px;
+  margin-top: 20px;
   background-color: #B9B9D8;
   display: flex;
   flex-direction: column;
@@ -159,6 +170,96 @@ main {
   padding-right: 150px;
 }
 
+#bad{
+  width: 88%;
+  border-radius: 10px;
+  padding: 1em;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #B9B9D8;
+  display: flex;
+  flex-direction: column;
+  font-family: "Calibri Light", serif;
+}
+
+#bexample{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  background-color: #2B2B2A;
+  display: flex;
+  flex-direction: column;
+}
+
+#bad p{
+  font-family: "Calibri Light", serif;
+  font-weight: bold;
+}
+
+#exampletext{
+  display: flex;
+  flex-direction: column;
+}
+
+#exampletext p{
+  text-align: center;
+}
+
+#badnav {
+  visibility: visible;
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 11%;
+  width: 91%;
+  border-radius: 20px;
+}
+
+#badnav a{
+  height: 20px;
+
+  padding-right: 70px;
+  text-align: center;
+}
+
+#gexample{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  background-color: #2B2B2A;
+  display: flex;
+  flex-direction: column;
+}
+
+#good{
+  width: 88%;
+  border-radius: 10px;
+  padding: 1em;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #B9B9D8;
+  display: flex;
+  flex-direction: column;
+  font-family: "Calibri Light", serif;
+  font-weight: bold;
+}
+
+#goodnav{
+  visibility: visible;
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 11%;
+  width: 70%;
+  border-radius: 20px;
+}
+
+#goodnav a{
+  height: 20px;
+  padding-right: 30px;
+  text-align: center;
+}
+
 /* #navicon{
   background-color: #a19c9c;
 } */
@@ -188,8 +289,9 @@ main {
   text-align: left;
 } */
 
-/* TABLET STYLES */
 
+
+/* TABLET STYLES */
 @media screen and (min-width: 500px) {
 
 /* applies to screens wider than 499px */
@@ -210,7 +312,7 @@ main {
     padding: 1em;
   }
 
-  a{ /*Navbar link styling*/
+  nav a{ /*Navbar link styling*/
     text-decoration: none;
     color: black;
     padding-left: 2.5px;
@@ -255,14 +357,68 @@ main {
     margin-top: 20px;
   }
 
+  #bad{
+    width: 93%;
+    flex-direction: column;
+  }
 
+  #bexample{
+    width: 400px;
+    margin-left: 160px;
+    flex-direction: row;
+  }
+
+  #exampletext{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #badnav {
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 11%;
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  #badnav a{
+    height: 20px;
+    padding-right: 100px;
+    text-align: center;
+  }
+
+  #gexample{
+    width: 400px;
+    margin-left: 160px;
+    flex-direction: row;
+  }
+
+  #good{
+    width: 93%;
+    flex-direction: column;
+  }
   /* .topNav .icon{
     display: none;
   } */
 }
 
-/* DESKTOP STYLES */
+#goodnav {
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 11%;
+  width: 95%;
+  border-radius: 20px;
+}
 
+#goodnav a{
+  height: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+
+
+/* DESKTOP STYLES */
 @media screen and (min-width: 1000px) {
 
 /* applies to screens wider than 999px */
@@ -284,14 +440,14 @@ main {
 
   }
 
-  a{ /*Navbar link styling*/
+nav a{ /*Navbar link styling*/
     text-decoration: none;
     color: black;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
 
@@ -312,6 +468,7 @@ main {
   #mobilenav{
     visibility: hidden;
   }
+
 
   #intro{
     width: 45%;
@@ -336,7 +493,74 @@ main {
     margin-right: 10px;
   }
 
+  #test{
+    float:left;
+  }
 
+  #bad{
+    width: 45%;
+    flex-direction: row;
+  }
+
+  #bexample{
+    margin-left: 0px;
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+  }
+
+  #exampletext{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #exampletext p{
+  margin-left: 10px;
+  }
+
+  #badnav {
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 11%;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  #badnav a{
+    height: 20px;
+    padding-right: 90px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #gexample{
+    margin-left: 0px;
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+  }
+
+  #good{
+    width: 45%;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+
+  #goodnav {
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 11%;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  #goodnav a{
+    height: 20px;
+    padding-right: 60px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 12px;
+  }
 
   /* .topNav a:first-of-type(:first-child){
     display: none;
