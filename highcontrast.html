@@ -17,6 +17,7 @@
       <!-- <a href="javascript:void(0);" class="icon" id="navicon" onclick="navbar()">
       <img src="icons/bars-solid.svg" onerror="this.onerror=null; this.src'image.png'">
       </a> -->
+      <a href="homepage.html">Home</a>
       <a href="navbar.html">Nav Bar</a>
       <a href="buttons.html">Buttons</a>
       <a href="scrolling.html">Scrolling</a>
@@ -25,56 +26,67 @@
       <a href="textcolour(fonts).html">Text Colour(Fonts)</a>
       <a href="captions.html">Captions</a>
       <a href="epilepsy.html">Epilepsy</a>
-      <a href="">Background Colour</a>
     </nav>
   </div>
 
   <div id="mobilenav">
     <table>
       <tr>
-        <th><a href="navbar.html">Nav Bar</th>
+        <th><a href="homepage.html">Home Page</th>
+        <th><a href="navbar.html">Navbar</th>
         <th><a href="buttons.html">Buttons</th>
         <th><a href="scrolling.html">Scrolling</th>
         <th><a href="fonts.html">Fonts</th>
-        <th><a href="textsize.html">Text Size</th>
       </tr>
       <tr>
+        <th><a href="textsize.html">Text Size</th>
         <th><a href="textcolour(fonts).html">Text Colour(Fonts)</th>
         <th><a href="captions.html">Captions</th>
         <th><a href="epilepsy.html">Epliepsy</th>
-        <th>Background Colour</th>
       </tr>
     </table>
   </div>
 
-  <main>
+
     <div id="intro">
-      <img src="images/4principles.jpg" alt="Photo of 4 principles of web Accessibility">
       <div id="introtext">
-        <h1>What is Website Accessibility?</h1>
-        <p>Web Accessibility can be split down into 4 principles which are Perceivable, Operable, Understandable and Robust.</p>
-        <p>These 4 principles are there in order to show the specfic ascpects of website interfaces that can be improved in order to make websites more accessible and usable.</p>
-        <p>There are codes made by organisations such as W3 which are a standard of rules on website accessibility and how they must be achieved.</p>
-        <a id="guidelines" href="https://www.w3.org/WAI/standards-guidelines/wcag/">W3AG Guidlines</a>
+        <h1>High Contrast (Background/Text Colour Accessibility</h1>
+        <p>In order to be more accesible to disabled users, websites should havge a high contrast feature which essentially turns the background and texts colours into colours that contrast perfectly.</p>
       </div>
     </div>
 
-   <div id="list">
-     <h1>Topics Covered:</h1>
-     <ul>
-       <li>Nav Bar</li>
-       <li>Buttons</li>
-       <li>Scrolling</li>
-       <li>Fonts</li>
-       <li>Text Size</li>
-       <li>Text Colour(Fonts)</li>
-       <li>Captions</li>
-       <li>Epliepsy</li>
-       <li>Background Colour</li>
-       <li>Text Colour</li>
-   </ul>
-   </div>
-  </main>
+<main>
+  <div id="bad">
+    <div id="bcontrast">
+      <h3 id="badtextcontrast">Sample Text.</h3>
+    </div>
+    <div id="exampletext">
+      <h2>Bad Example</h2>
+      <p>This example is bad because the colour does not contrast well with the background and it could be painful to look at and read.</p>
+    </div>
+  </div>
+
+  <div id="good">
+    <div id="gcontrast">
+      <h3 id="goodtextcontrast">Sample Text.</h3>
+    </div>
+    <div id="exampletext">
+      <h2>Good Example</h2>
+      <p>This example is good because the colour contrats well with the background. </p>
+    </div>
+  </div>
+
+  <div id="interactive">
+    <div id="gcontrast">
+      <h3 id="goodtextcontrast">Sample Text.</h3>
+    </div>
+    <div id="exampletext">
+      <h4>Interactive Example</h4>
+      <button type="button" id="highcontrast">High Contrast Mode</button>
+    </div>
+  </div>
+
+</main>
 
     <!-- <script src="javascript/navbar.js"></script> -->
 </body>

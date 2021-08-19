@@ -126,6 +126,24 @@ h3{
   padding-top: 60px;
 }
 
+#goodtextcontrast{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	black;
+  padding-left: 90px;
+  padding-top: 60px;
+}
+
+#badtextcontrast{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	yellow;
+  padding-left: 10px;
+  padding-top: 60px;
+}
+
 #badtextcolour{
   text-align: center;
   font-size: 22px;
@@ -292,6 +310,12 @@ main {
   text-align: center;
 }
 
+#exampletext h4{
+  text-align: center;
+  font-size: 24px;
+  padding-left: 150px;
+}
+
 #badnav {
   visibility: visible;
   margin-left: 0px;
@@ -325,6 +349,25 @@ main {
   width: 300px;
   display: flex;
   flex-direction: column;
+}
+
+#bcontrast{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  background-color: #95a323;
+  display: flex;
+  flex-direction: column;
+}
+
+#gcontrast{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  background-color: #ffff;
+  display: flex;
 }
 
 #good{
@@ -396,6 +439,29 @@ main {
 #bflash{
   height: 225px;
   width: 300px;
+}
+
+#interactive{
+  width: 88%;
+  border-radius: 10px;
+  padding: 1em;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #B9B9D8;
+  display: flex;
+  flex-direction: column;
+  font-family: "Calibri Light", serif;
+}
+
+#highcontrast{
+  background-color: #7289da;
+  border-radius: 20px;
+  font-family: "Calibri Light", serif;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 110px;
+  height: 70px;
+  width: 80px;
 }
 /* #navicon{
   background-color: #a19c9c;
@@ -531,6 +597,42 @@ main {
       padding-left: 0px;
       padding-left: 100px;
       padding-top: 50px;
+    }
+
+    #goodtextcontrast{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      padding-left: 100px;
+      padding-top: 50px;
+    }
+
+    #badtextcontrast{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      padding-left: 0px;
+      padding-top: 50px;
+    }
+
+    #bcontrast{
+      margin-left: 215px;
+      border-radius: 20px;
+      height: 200px;
+      width: 300px;
+      background-color: #95a323;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #gcontrast{
+      margin-top: 20px;
+      margin-left: 215px;
+      border-radius: 20px;
+      height: 200px;
+      width: 300px;
+      background-color: #ffff;
+      display: flex;
     }
 
     #badtextcolour{
@@ -681,6 +783,18 @@ main {
     width: 450px;
   }
 
+  #interactive{
+    width: 93%;
+    flex-direction: column;
+  }
+
+  #highcontrast{
+    height: 70px;
+    width: 80px;
+    margin-top: 65px;
+    margin-left: 160px;
+  }
+
 }
 
 /* DESKTOP STYLES */
@@ -781,6 +895,42 @@ nav a{ /*Navbar link styling*/
     padding-left: 0px;
     padding-left: 120px;
     padding-top: 90px;
+  }
+
+  #goodtextcontrast{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    padding-left: 90px;
+    padding-top: 70px;
+  }
+
+  #badtextcontrast{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    padding-left: 0px;
+    padding-top: 65px;
+  }
+
+  #bcontrast{
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: #95a323;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #gcontrast{
+    margin-left: 0px;
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: #ffff;
+    display: flex;
   }
 
   #badtextcolour{
@@ -936,6 +1086,17 @@ nav a{ /*Navbar link styling*/
     width: 500px;
   }
 
+  #interactive{
+    width: 45%;
+    flex-direction: row;
+  }
+
+  #highcontrast{
+    height: 70px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
   /* .topNav a:first-of-type(:first-child){
     display: none;
   }
