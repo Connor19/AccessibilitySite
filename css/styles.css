@@ -6,6 +6,16 @@
   src: url("../font/LEMONMILK-Regular.otf");
 }
 
+@font-face { /*Custom Font*/
+  font-family: badfont;
+  src: url("../font/Cream Cake.otf");
+}
+
+@font-face { /*Custom Font*/
+  font-family: goodfont;
+  src: url("../font/CreatoDisplay-Regular.otf");
+}
+
 body{
   width: 100%;
   background: #837f7f;
@@ -69,6 +79,32 @@ h1{ /*Title styling*/
 h2{
   text-align: center;
   padding-left: 0px;
+}
+
+h3{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	#7289da;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+#badfont{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	#7289da;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+#badfont{
+  font-family: badfont;
+}
+
+#goodfont{
+  font-family: goodfont;
 }
 
 #mobilenav{
@@ -197,6 +233,15 @@ main {
   flex-direction: column;
 }
 
+#bsexample{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
 #bad p{
   font-family: "Calibri Light", serif;
   font-weight: bold;
@@ -233,6 +278,15 @@ main {
   height: 200px;
   width: 300px;
   background-color: #2B2B2A;
+  display: flex;
+  flex-direction: column;
+}
+
+#gsexample{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -288,6 +342,15 @@ main {
   width: 80px;
 }
 
+#gscroll{
+  height: 225px;
+  width: 550px;
+}
+
+#bscroll{
+  height: 225px;
+  width: 450px;
+}
 /* #navicon{
   background-color: #a19c9c;
 } */
@@ -362,6 +425,24 @@ main {
       border-radius: 20px;
     }
 
+    h3{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      color: 	#7289da;
+      padding-left: 110px;
+      padding-top: 70px;
+    }
+
+    #badfont{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      color: 	#7289da;
+      padding-left: 150px;
+      padding-top: 70px;
+    }
+
     main{
       flex-direction: column;
     }
@@ -397,6 +478,12 @@ main {
       flex-direction: row;
     }
 
+    #bsexample{
+      width: 400px;
+      margin-left: 160px;
+      flex-direction: row;
+    }
+
     #exampletext{
       display: flex;
       flex-direction: column;
@@ -417,6 +504,12 @@ main {
     }
 
     #gexample{
+      width: 400px;
+      margin-left: 160px;
+      flex-direction: row;
+    }
+
+    #gsexample{
       width: 400px;
       margin-left: 160px;
       flex-direction: row;
@@ -458,6 +551,16 @@ main {
     width: 80px;
     margin-top: 65px;
     margin-left: 160px;
+  }
+
+  #gscroll{
+    height: 225px;
+    width: 550px;
+  }
+
+  #bscroll{
+    height: 225px;
+    width: 450px;
   }
 
 }
@@ -527,6 +630,15 @@ nav a{ /*Navbar link styling*/
     font-size: 30px;
   }
 
+  h3{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    color: 	#7289da;
+    padding-left: 110px;
+    padding-top: 90px;
+  }
+
   #guidelines{
     margin-left: 10px;
   }
@@ -551,6 +663,14 @@ nav a{ /*Navbar link styling*/
     width: 500px;
     height: 300px;
     flex-direction: row;
+  }
+
+  #bsexample{
+    margin-left: 0px;
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+    margin-top: 40px;
   }
 
   #exampletext{
@@ -582,6 +702,14 @@ nav a{ /*Navbar link styling*/
     width: 500px;
     height: 300px;
     flex-direction: row;
+  }
+
+  #gsexample{
+    margin-left: 0px;
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+    margin-top: 40px;
   }
 
   #good{
@@ -618,6 +746,16 @@ nav a{ /*Navbar link styling*/
     width: 80px;
     margin-top: 120px;
     margin-left: 105px;
+  }
+
+  #gscroll{
+    height: 225px;
+    width: 550px;
+  }
+
+  #bscroll{
+    height: 225px;
+    width: 450px;
   }
 
 
