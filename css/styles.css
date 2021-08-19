@@ -99,6 +99,42 @@ h3{
   padding-top: 60px;
 }
 
+#goodtextsize{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	#7289da;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+#badtextsize{
+  text-align: center;
+  font-size: 12px;
+  padding-left: 0px;
+  color: 	#7289da;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+#goodtextcolour{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	white;
+  padding-left: 10px;
+  padding-top: 60px;
+}
+
+#badtextcolour{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	yellow;
+  padding-left: 10px;
+  padding-top: 60px;
+}
+
 #badfont{
   font-family: badfont;
 }
@@ -351,6 +387,16 @@ main {
   height: 225px;
   width: 450px;
 }
+
+#gflash{
+  height: 225px;
+  width: 300px;
+}
+
+#bflash{
+  height: 225px;
+  width: 300px;
+}
 /* #navicon{
   background-color: #a19c9c;
 } */
@@ -434,6 +480,24 @@ main {
       padding-top: 70px;
     }
 
+    #goodtextsize{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      color: 	#7289da;
+      padding-left: 20px;
+      padding-top: 60px;
+    }
+
+    #badtextsize{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      color: 	#7289da;
+      padding-left: 20px;
+      padding-top: 60px;
+    }
+
     #badfont{
       text-align: center;
       font-size: 22px;
@@ -441,6 +505,40 @@ main {
       color: 	#7289da;
       padding-left: 150px;
       padding-top: 70px;
+    }
+
+    #goodtextsize{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      color: 	#7289da;
+      padding-left: 120px;
+      padding-top: 50px;
+    }
+
+    #badtextsize{
+      text-align: center;
+      font-size: 12px;
+      padding-left: 0px;
+      color: 	#7289da;
+      padding-left: 160px;
+      padding-top: 80px;
+    }
+
+    #goodtextcolour{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      padding-left: 100px;
+      padding-top: 50px;
+    }
+
+    #badtextcolour{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      padding-left: 100px;
+      padding-top: 50px;
     }
 
     main{
@@ -563,6 +661,26 @@ main {
     width: 450px;
   }
 
+  #gcaption{
+    height: 225px;
+    width: 550px;
+  }
+
+  #bcaption{
+    height: 225px;
+    width: 450px;
+  }
+
+  #gflash{
+    height: 225px;
+    width: 425px;
+  }
+
+  #bflash{
+    height: 225px;
+    width: 450px;
+  }
+
 }
 
 /* DESKTOP STYLES */
@@ -639,6 +757,45 @@ nav a{ /*Navbar link styling*/
     padding-top: 90px;
   }
 
+  #goodtextsize{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    color: 	#7289da;
+    padding-left: 120px;
+    padding-top: 90px;
+  }
+
+  #badtextsize{
+    text-align: center;
+    font-size: 12px;
+    padding-left: 0px;
+    color: 	#7289da;
+    padding-left: 100px;
+    padding-top: 110px;
+  }
+
+  #goodtextcolour{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    padding-left: 120px;
+    padding-top: 90px;
+  }
+
+  #badtextcolour{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    padding-left: 60px;
+    padding-top: 90px;
+  }
+
+  #badfont{
+    padding-left: 90px;
+    padding-top: 100px;
+  }
+
   #guidelines{
     margin-left: 10px;
   }
@@ -712,6 +869,7 @@ nav a{ /*Navbar link styling*/
     margin-top: 40px;
   }
 
+
   #good{
     width: 45%;
     flex-direction: row;
@@ -758,6 +916,25 @@ nav a{ /*Navbar link styling*/
     width: 450px;
   }
 
+  #gcaption{
+    height: 225px;
+    width: 400px;
+  }
+
+  #bcaption{
+    height: 225px;
+    width: 400px;
+  }
+
+  #gflash{
+    height: 275px;
+    width: 500px;
+  }
+
+  #bflash{
+    height: 275px;
+    width: 500px;
+  }
 
   /* .topNav a:first-of-type(:first-child){
     display: none;
