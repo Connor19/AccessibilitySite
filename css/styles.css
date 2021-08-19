@@ -135,6 +135,15 @@ h3{
   padding-top: 60px;
 }
 
+#contrasttext{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	black;
+  padding-left: 90px;
+  padding-top: 60px;
+}
+
 #badtextcontrast{
   text-align: center;
   font-size: 22px;
@@ -366,7 +375,16 @@ main {
   border-radius: 20px;
   height: 200px;
   width: 300px;
-  background-color: #ffff;
+  background-color: #a19c9c;
+  display: flex;
+}
+
+#precontrast{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  background-color: white;
   display: flex;
 }
 
@@ -459,9 +477,32 @@ main {
   font-family: "Calibri Light", serif;
   font-weight: bold;
   margin-top: 50px;
-  margin-left: 110px;
+  margin-left: 140px;
   height: 70px;
   width: 80px;
+}
+
+#blackbackground{
+  margin-left: 40px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  background-color: black;
+  display: flex;
+
+}
+
+#whitetext{
+  text-align: center;
+  font-size: 22px;
+  padding-left: 0px;
+  color: 	white;
+  padding-left: 90px;
+  padding-top: 60px;
+}
+
+#exampletext h4{
+  padding-right: 180px;
 }
 /* #navicon{
   background-color: #a19c9c;
@@ -607,6 +648,14 @@ main {
       padding-top: 50px;
     }
 
+    #contrasttext{
+      text-align: center;
+      font-size: 22px;
+      padding-left: 0px;
+      padding-left: 100px;
+      padding-top: 50px;
+    }
+
     #badtextcontrast{
       text-align: center;
       font-size: 22px;
@@ -631,7 +680,17 @@ main {
       border-radius: 20px;
       height: 200px;
       width: 300px;
-      background-color: #ffff;
+      background-color: #a19c9c;
+      display: flex;
+    }
+
+    #precontrast{
+      margin-top: 20px;
+      margin-left: 215px;
+      border-radius: 20px;
+      height: 200px;
+      width: 300px;
+      background-color: white;
       display: flex;
     }
 
@@ -687,6 +746,10 @@ main {
     #exampletext{
       display: flex;
       flex-direction: column;
+    }
+
+    #exampletext h4{
+      padding-right: 130px;
     }
 
     #badnav {
@@ -792,9 +855,26 @@ main {
     height: 70px;
     width: 80px;
     margin-top: 65px;
-    margin-left: 160px;
+    margin-left: 320px;
   }
 
+  #whitetext{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+
+  #blackbackground{
+    margin-top: 20px;
+    margin-left: 215px;
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+  }
 }
 
 /* DESKTOP STYLES */
@@ -905,6 +985,14 @@ nav a{ /*Navbar link styling*/
     padding-top: 70px;
   }
 
+  #contrasttext{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    padding-left: 90px;
+    padding-top: 70px;
+  }
+
   #badtextcontrast{
     text-align: center;
     font-size: 22px;
@@ -929,7 +1017,16 @@ nav a{ /*Navbar link styling*/
     border-radius: 20px;
     height: 200px;
     width: 300px;
-    background-color: #ffff;
+    background-color: #a19c9c;
+    display: flex;
+  }
+
+  #precontrast{
+    margin-left: 0px;
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: #white;
     display: flex;
   }
 
@@ -1096,6 +1193,24 @@ nav a{ /*Navbar link styling*/
     width: 80px;
     margin-top: 20px;
     margin-left: 200px;
+  }
+
+  #whitetext{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0px;
+    padding-left: 90px;
+    padding-top: 70px;
+  }
+
+  #blackbackground{
+    margin-left: 0px;
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    }
   }
   /* .topNav a:first-of-type(:first-child){
     display: none;
