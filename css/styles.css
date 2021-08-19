@@ -265,6 +265,29 @@ main {
   text-align: center;
 }
 
+#bbutton{
+  background-color: #7289da;
+  border-radius: 20px;
+  font-family: "Calibri Light", serif;
+  font-weight: bold;
+  height: 30px;
+  width: 50px;
+  margin-left: 110px;
+  margin-top: 80px;
+  font-size: 8px;
+}
+
+#gbutton{
+  background-color: #7289da;
+  border-radius: 20px;
+  font-family: "Calibri Light", serif;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 110px;
+  height: 70px;
+  width: 80px;
+}
+
 /* #navicon{
   background-color: #a19c9c;
 } */
@@ -297,88 +320,118 @@ main {
 
 
 /* TABLET STYLES */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px)
+{
 
 /* applies to screens wider than 499px */
 
-  #logo{
-    padding-left: 10px;
-    font-size: 12px;
-  }
+    #logo{
+      padding-left: 10px;
+      font-size: 12px;
+    }
 
-  nav{ /*Navbar styling*/
-    visibility: visible;
-    background-color: #a19c9c;
-    font-family: "Calibri Light", serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: left;
-    justify-content: space-around;
-    padding: 1em;
-  }
+    nav{ /*Navbar styling*/
+      visibility: visible;
+      background-color: #a19c9c;
+      font-family: "Calibri Light", serif;
+      font-weight: bold;
+      display: flex;
+      justify-content: left;
+      justify-content: space-around;
+      padding: 1em;
+    }
 
-  nav a{ /*Navbar link styling*/
-    text-decoration: none;
-    color: black;
-    padding-left: 2.5px;
-    padding-right: 2.5px;
-    padding-top: 2.5px;
-    padding-bottom: 2.5px;
-    font-size: 10px;
-  }
+    nav a{ /*Navbar link styling*/
+      text-decoration: none;
+      color: black;
+      padding-left: 2.5px;
+      padding-right: 2.5px;
+      padding-top: 2.5px;
+      padding-bottom: 2.5px;
+      font-size: 10px;
+    }
 
 
-  a:hover{ /*Navbar Item styling*/
-    color: white;
-    transition: 2s;
-  }
+    a:hover{ /*Navbar Item styling*/
+      color: white;
+      transition: 2s;
+    }
 
-  a:link{ /*Navbar Item styling*/
-    background-color: #7289da;
-    border-radius: 20px;
-  }
+    a:link{ /*Navbar Item styling*/
+      background-color: #7289da;
+      border-radius: 20px;
+    }
 
-  main{
-    flex-direction: column;
-  }
+    main{
+      flex-direction: column;
+    }
 
-  #mobilenav{
-    visibility: hidden;
-  }
+    #mobilenav{
+      visibility: hidden;
+    }
 
-  #intro{
-    width: 93%;
-    flex-direction: column;
-  }
+    #intro{
+      width: 93%;
+      flex-direction: column;
+    }
 
-  #intro img{
-    margin-top: 80px;
-    width: 50%;
-    height: 50%;
-  }
+    #intro img{
+      margin-top: 80px;
+      width: 50%;
+      height: 50%;
+    }
 
-  #list{
-    width: 93%;
-    margin-top: 20px;
-  }
+    #list{
+      width: 93%;
+      margin-top: 20px;
+    }
 
-  #bad{
-    width: 93%;
-    flex-direction: column;
-  }
+    #bad{
+      width: 93%;
+      flex-direction: column;
+    }
 
-  #bexample{
-    width: 400px;
-    margin-left: 160px;
-    flex-direction: row;
-  }
+    #bexample{
+      width: 400px;
+      margin-left: 160px;
+      flex-direction: row;
+    }
 
-  #exampletext{
-    display: flex;
-    flex-direction: column;
-  }
+    #exampletext{
+      display: flex;
+      flex-direction: column;
+    }
 
-  #badnav {
+    #badnav {
+      margin-left: 0px;
+      margin-top: 0px;
+      height: 11%;
+      width: 95%;
+      border-radius: 20px;
+    }
+
+    #badnav a{
+      height: 20px;
+      padding-right: 100px;
+      text-align: center;
+    }
+
+    #gexample{
+      width: 400px;
+      margin-left: 160px;
+      flex-direction: row;
+    }
+
+    #good{
+      width: 93%;
+      flex-direction: column;
+    }
+    /* .topNav .icon{
+      display: none;
+    } */
+
+
+  #goodnav {
     margin-left: 0px;
     margin-top: 0px;
     height: 11%;
@@ -386,42 +439,28 @@ main {
     border-radius: 20px;
   }
 
-  #badnav a{
+  #goodnav a{
     height: 20px;
-    padding-right: 100px;
+    padding-right: 20px;
     text-align: center;
   }
 
-  #gexample{
-    width: 400px;
+  #bbutton{
+    height: 40px;
+    width: 60px;
+    margin-top: 80px;
+    margin-left: 170px;
+    font-size: 9px;
+  }
+
+  #gbutton{
+    height: 70px;
+    width: 80px;
+    margin-top: 65px;
     margin-left: 160px;
-    flex-direction: row;
   }
 
-  #good{
-    width: 93%;
-    flex-direction: column;
-  }
-  /* .topNav .icon{
-    display: none;
-  } */
 }
-
-#goodnav {
-  margin-left: 0px;
-  margin-top: 0px;
-  height: 11%;
-  width: 95%;
-  border-radius: 20px;
-}
-
-#goodnav a{
-  height: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-
-
 
 /* DESKTOP STYLES */
 @media screen and (min-width: 1000px) {
@@ -566,6 +605,21 @@ nav a{ /*Navbar link styling*/
     text-align: center;
     font-size: 12px;
   }
+
+  #bbutton{
+    height: 40px;
+    width: 60px;
+    margin-top: 130px;
+    margin-left: 85px;
+  }
+
+  #gbutton{
+    height: 70px;
+    width: 80px;
+    margin-top: 120px;
+    margin-left: 105px;
+  }
+
 
   /* .topNav a:first-of-type(:first-child){
     display: none;
