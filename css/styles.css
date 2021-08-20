@@ -477,7 +477,18 @@ main {
   font-family: "Calibri Light", serif;
   font-weight: bold;
   margin-top: 50px;
-  margin-left: 140px;
+  margin-left: 70px;
+  height: 70px;
+  width: 80px;
+}
+
+#highcontrast2{
+  background-color: #7289da;
+  border-radius: 20px;
+  font-family: "Calibri Light", serif;
+  font-weight: bold;
+  margin-top: -70px;
+  margin-left: 220px;
   height: 70px;
   width: 80px;
 }
@@ -490,6 +501,10 @@ main {
   background-color: black;
   display: flex;
 
+}
+
+button{
+  cursor: pointer;
 }
 
 #whitetext{
@@ -855,7 +870,14 @@ main {
     height: 70px;
     width: 80px;
     margin-top: 65px;
-    margin-left: 320px;
+    margin-left: 230px;
+  }
+
+  #highcontrast2{
+    height: 70px;
+    width: 80px;
+    margin-top: -70px;
+    margin-left: 400px;
   }
 
   #whitetext{
@@ -1192,7 +1214,15 @@ nav a{ /*Navbar link styling*/
     height: 70px;
     width: 80px;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 120px;
+  }
+
+  #highcontrast2{
+    height: 70px;
+    width: 80px;
+    margin-top: -70px;
+    margin-left: 270px;
+    font-size: 12px;
   }
 
   #whitetext{
