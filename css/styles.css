@@ -305,6 +305,11 @@ main {
   flex-direction: column;
 }
 
+#bsexample img{
+  height: 200px;
+  width: 300px;
+}
+
 #bad p{
   font-family: "Calibri Light", serif;
   font-weight: bold;
@@ -358,6 +363,11 @@ main {
   width: 300px;
   display: flex;
   flex-direction: column;
+}
+
+#gsexample img{
+  height: 200px;
+  width: 300px;
 }
 
 #bcontrast{
@@ -758,6 +768,11 @@ button{
       flex-direction: row;
     }
 
+    #bsexample img{
+      height: 200px;
+      width: 400px;
+    }
+
     #exampletext{
       display: flex;
       flex-direction: column;
@@ -791,6 +806,11 @@ button{
       width: 400px;
       margin-left: 160px;
       flex-direction: row;
+    }
+
+    #gsexample img{
+      height: 200px;
+      width: 400px;
     }
 
     #good{
